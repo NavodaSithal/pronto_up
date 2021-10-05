@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35021CBD270C07C4000A81C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CBC270C07C4000A81C0 /* AppDelegate.swift */; };
+		35021CBF270C07C4000A81C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CBE270C07C4000A81C0 /* SceneDelegate.swift */; };
+		35021CC1270C07C4000A81C0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CC0270C07C4000A81C0 /* FirstViewController.swift */; };
+		35021CC4270C07C4000A81C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35021CC2270C07C4000A81C0 /* Main.storyboard */; };
+		35021CC7270C07C4000A81C0 /* prontoapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35021CC5270C07C4000A81C0 /* prontoapp.xcdatamodeld */; };
+		35021CC9270C07C6000A81C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35021CC8270C07C6000A81C0 /* Assets.xcassets */; };
+		35021CCC270C07C6000A81C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35021CCA270C07C6000A81C0 /* LaunchScreen.storyboard */; };
+		35021CE2270C09E8000A81C0 /* ReturnMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CD5270C09E8000A81C0 /* ReturnMsg.swift */; };
+		35021CE3270C09E8000A81C0 /* NoteObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CD6270C09E8000A81C0 /* NoteObj.swift */; };
+		35021CE4270C09E8000A81C0 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CD8270C09E8000A81C0 /* NoteCell.swift */; };
+		35021CE5270C09E8000A81C0 /* ShowNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CDA270C09E8000A81C0 /* ShowNoteViewModel.swift */; };
+		35021CE6270C09E8000A81C0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CDB270C09E8000A81C0 /* MainViewModel.swift */; };
+		35021CE7270C09E8000A81C0 /* DBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CDD270C09E8000A81C0 /* DBHandler.swift */; };
+		35021CE8270C09E8000A81C0 /* UserDefaltManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CDE270C09E8000A81C0 /* UserDefaltManager .swift */; };
+		35021CE9270C09E8000A81C0 /* prontoExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CDF270C09E8000A81C0 /* prontoExtentions.swift */; };
+		35021CEA270C09E8000A81C0 /* NewNoteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CE0270C09E8000A81C0 /* NewNoteHandler.swift */; };
+		35021CEB270C09E8000A81C0 /* FirstViewDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CE1270C09E8000A81C0 /* FirstViewDataHandler.swift */; };
+		35021CF0270C09F5000A81C0 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CEC270C09F5000A81C0 /* ScanViewController.swift */; };
+		35021CF1270C09F5000A81C0 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CED270C09F5000A81C0 /* NewNoteViewController.swift */; };
+		35021CF2270C09F5000A81C0 /* ShowNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CEE270C09F5000A81C0 /* ShowNoteViewController.swift */; };
+		35021CF3270C09F5000A81C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CEF270C09F5000A81C0 /* MainViewController.swift */; };
+		35021CF6270C0C63000A81C0 /* NoteItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CF4270C0C63000A81C0 /* NoteItem+CoreDataClass.swift */; };
+		35021CF7270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CF5270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35021CB9270C07C4000A81C0 /* prontoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prontoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35021CBC270C07C4000A81C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35021CBE270C07C4000A81C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35021CC0270C07C4000A81C0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		35021CC3270C07C4000A81C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35021CC6270C07C4000A81C0 /* prontoapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prontoapp.xcdatamodel; sourceTree = "<group>"; };
+		35021CC8270C07C6000A81C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35021CCB270C07C6000A81C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35021CCD270C07C6000A81C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35021CD5270C09E8000A81C0 /* ReturnMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnMsg.swift; sourceTree = "<group>"; };
+		35021CD6270C09E8000A81C0 /* NoteObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteObj.swift; sourceTree = "<group>"; };
+		35021CD8270C09E8000A81C0 /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		35021CDA270C09E8000A81C0 /* ShowNoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowNoteViewModel.swift; sourceTree = "<group>"; };
+		35021CDB270C09E8000A81C0 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		35021CDD270C09E8000A81C0 /* DBHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHandler.swift; sourceTree = "<group>"; };
+		35021CDE270C09E8000A81C0 /* UserDefaltManager .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaltManager .swift"; sourceTree = "<group>"; };
+		35021CDF270C09E8000A81C0 /* prontoExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prontoExtentions.swift; sourceTree = "<group>"; };
+		35021CE0270C09E8000A81C0 /* NewNoteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteHandler.swift; sourceTree = "<group>"; };
+		35021CE1270C09E8000A81C0 /* FirstViewDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewDataHandler.swift; sourceTree = "<group>"; };
+		35021CEC270C09F5000A81C0 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		35021CED270C09F5000A81C0 /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		35021CEE270C09F5000A81C0 /* ShowNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowNoteViewController.swift; sourceTree = "<group>"; };
+		35021CEF270C09F5000A81C0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		35021CF4270C0C63000A81C0 /* NoteItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		35021CF5270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35021CB6270C07C4000A81C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35021CB0270C07C4000A81C0 = {
+			isa = PBXGroup;
+			children = (
+				35021CBB270C07C4000A81C0 /* prontoapp */,
+				35021CBA270C07C4000A81C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35021CBA270C07C4000A81C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35021CB9270C07C4000A81C0 /* prontoapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35021CBB270C07C4000A81C0 /* prontoapp */ = {
+			isa = PBXGroup;
+			children = (
+				35021CD7270C09E8000A81C0 /* Cell */,
+				35021CDC270C09E8000A81C0 /* Handler */,
+				35021CD4270C09E8000A81C0 /* Model */,
+				35021CD9270C09E8000A81C0 /* ViewModels */,
+				35021CBC270C07C4000A81C0 /* AppDelegate.swift */,
+				35021CBE270C07C4000A81C0 /* SceneDelegate.swift */,
+				35021CD3270C0978000A81C0 /* ViewControllers */,
+				35021CC2270C07C4000A81C0 /* Main.storyboard */,
+				35021CC8270C07C6000A81C0 /* Assets.xcassets */,
+				35021CCA270C07C6000A81C0 /* LaunchScreen.storyboard */,
+				35021CCD270C07C6000A81C0 /* Info.plist */,
+				35021CC5270C07C4000A81C0 /* prontoapp.xcdatamodeld */,
+			);
+			path = prontoapp;
+			sourceTree = "<group>";
+		};
+		35021CD3270C0978000A81C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35021CEF270C09F5000A81C0 /* MainViewController.swift */,
+				35021CED270C09F5000A81C0 /* NewNoteViewController.swift */,
+				35021CEC270C09F5000A81C0 /* ScanViewController.swift */,
+				35021CEE270C09F5000A81C0 /* ShowNoteViewController.swift */,
+				35021CC0270C07C4000A81C0 /* FirstViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		35021CD4270C09E8000A81C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35021CF4270C0C63000A81C0 /* NoteItem+CoreDataClass.swift */,
+				35021CF5270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift */,
+				35021CD5270C09E8000A81C0 /* ReturnMsg.swift */,
+				35021CD6270C09E8000A81C0 /* NoteObj.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35021CD7270C09E8000A81C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				35021CD8270C09E8000A81C0 /* NoteCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		35021CD9270C09E8000A81C0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				35021CDA270C09E8000A81C0 /* ShowNoteViewModel.swift */,
+				35021CDB270C09E8000A81C0 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		35021CDC270C09E8000A81C0 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				35021CDD270C09E8000A81C0 /* DBHandler.swift */,
+				35021CDE270C09E8000A81C0 /* UserDefaltManager .swift */,
+				35021CDF270C09E8000A81C0 /* prontoExtentions.swift */,
+				35021CE0270C09E8000A81C0 /* NewNoteHandler.swift */,
+				35021CE1270C09E8000A81C0 /* FirstViewDataHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35021CB8270C07C4000A81C0 /* prontoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35021CD0270C07C6000A81C0 /* Build configuration list for PBXNativeTarget "prontoapp" */;
+			buildPhases = (
+				35021CB5270C07C4000A81C0 /* Sources */,
+				35021CB6270C07C4000A81C0 /* Frameworks */,
+				35021CB7270C07C4000A81C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prontoapp;
+			productName = prontoapp;
+			productReference = 35021CB9270C07C4000A81C0 /* prontoapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35021CB1270C07C4000A81C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					35021CB8270C07C4000A81C0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 35021CB4270C07C4000A81C0 /* Build configuration list for PBXProject "prontoapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35021CB0270C07C4000A81C0;
+			productRefGroup = 35021CBA270C07C4000A81C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35021CB8270C07C4000A81C0 /* prontoapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35021CB7270C07C4000A81C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35021CCC270C07C6000A81C0 /* LaunchScreen.storyboard in Resources */,
+				35021CC9270C07C6000A81C0 /* Assets.xcassets in Resources */,
+				35021CC4270C07C4000A81C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35021CB5270C07C4000A81C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35021CF7270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift in Sources */,
+				35021CEA270C09E8000A81C0 /* NewNoteHandler.swift in Sources */,
+				35021CE9270C09E8000A81C0 /* prontoExtentions.swift in Sources */,
+				35021CF0270C09F5000A81C0 /* ScanViewController.swift in Sources */,
+				35021CC1270C07C4000A81C0 /* FirstViewController.swift in Sources */,
+				35021CC7270C07C4000A81C0 /* prontoapp.xcdatamodeld in Sources */,
+				35021CF1270C09F5000A81C0 /* NewNoteViewController.swift in Sources */,
+				35021CF2270C09F5000A81C0 /* ShowNoteViewController.swift in Sources */,
+				35021CE2270C09E8000A81C0 /* ReturnMsg.swift in Sources */,
+				35021CE3270C09E8000A81C0 /* NoteObj.swift in Sources */,
+				35021CBD270C07C4000A81C0 /* AppDelegate.swift in Sources */,
+				35021CE5270C09E8000A81C0 /* ShowNoteViewModel.swift in Sources */,
+				35021CF6270C0C63000A81C0 /* NoteItem+CoreDataClass.swift in Sources */,
+				35021CE7270C09E8000A81C0 /* DBHandler.swift in Sources */,
+				35021CE4270C09E8000A81C0 /* NoteCell.swift in Sources */,
+				35021CEB270C09E8000A81C0 /* FirstViewDataHandler.swift in Sources */,
+				35021CBF270C07C4000A81C0 /* SceneDelegate.swift in Sources */,
+				35021CF3270C09F5000A81C0 /* MainViewController.swift in Sources */,
+				35021CE6270C09E8000A81C0 /* MainViewModel.swift in Sources */,
+				35021CE8270C09E8000A81C0 /* UserDefaltManager .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35021CC2270C07C4000A81C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35021CC3270C07C4000A81C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35021CCA270C07C6000A81C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35021CCB270C07C6000A81C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35021CCE270C07C6000A81C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35021CCF270C07C6000A81C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35021CD1270C07C6000A81C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HFJ49CT7W;
+				INFOPLIST_FILE = prontoapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navoda.mobile.prontoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35021CD2270C07C6000A81C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HFJ49CT7W;
+				INFOPLIST_FILE = prontoapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navoda.mobile.prontoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35021CB4270C07C4000A81C0 /* Build configuration list for PBXProject "prontoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35021CCE270C07C6000A81C0 /* Debug */,
+				35021CCF270C07C6000A81C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35021CD0270C07C6000A81C0 /* Build configuration list for PBXNativeTarget "prontoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35021CD1270C07C6000A81C0 /* Debug */,
+				35021CD2270C07C6000A81C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35021CC5270C07C4000A81C0 /* prontoapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35021CC6270C07C4000A81C0 /* prontoapp.xcdatamodel */,
+			);
+			currentVersion = 35021CC6270C07C4000A81C0 /* prontoapp.xcdatamodel */;
+			path = prontoapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35021CB1270C07C4000A81C0 /* Project object */;
+}
