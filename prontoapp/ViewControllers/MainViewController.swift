@@ -13,17 +13,13 @@ class MainViewController: UIViewController {
     @IBOutlet weak var lblEmail: UILabel!
     @IBOutlet weak var collView: UICollectionView!
     @IBOutlet weak var btnNew: UIButton!
-    
-//    private lazy var notesList : [NoteItem] = []
-    
+        
     private var mainViewmodel : MainViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         btnNew.layer.cornerRadius = 22
-        collView.collectionViewLayout = UICollectionViewFlowLayout()
         callToViewModel()
-        getAndSetUserDetails()
         setCollLayout()
     }
     
@@ -31,6 +27,7 @@ class MainViewController: UIViewController {
         mainViewmodel = MainViewModel()
         mainViewmodel.getUserDetails()
         getNotes()
+        getAndSetUserDetails()
 
     }
     
@@ -79,7 +76,6 @@ extension MainViewController : UICollectionViewDelegate , UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return mainViewmodel.notesList!.count
-//        return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -87,7 +83,6 @@ extension MainViewController : UICollectionViewDelegate , UICollectionViewDataSo
         cell.bgView.layer.cornerRadius = 10
         cell.bgView.layer.borderWidth = 1
         cell.bgView.layer.borderColor = UIColor(named: "light_gray")?.cgColor
-//
         cell.lblNote.text = mainViewmodel.notesList![indexPath.row].note
         cell.lblDate.text = mainViewmodel.notesList![indexPath.row].createdDate?.convertDateToString
         return cell

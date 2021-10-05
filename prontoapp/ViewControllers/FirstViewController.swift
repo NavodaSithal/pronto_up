@@ -18,7 +18,6 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         btnScan.layer.cornerRadius = 22
-//        self.goToMainScreen()
 
     }
     
@@ -44,6 +43,8 @@ class FirstViewController: UIViewController {
     
     func showSccessAndGoToNextScreen(name : String){
         lblMMsg.text = name
+        lblMMsg.textColor = UIColor.darkGray
+
         UIView.transition(with: view, duration: 0.5, options: .transitionCrossDissolve, animations: {
             self.viewHello.isHidden = false
         },completion: {_ in
@@ -54,13 +55,16 @@ class FirstViewController: UIViewController {
     func showErrorMsgView(errMsg : String){
         lblMMsg.text = errMsg
         lblMMsg.textColor = UIColor(named: "err_red")
-        UIView.transition(with: view, duration: 1, options: .transitionCrossDissolve, animations: {
+        
+        UIView.transition(with: view, duration: 0.5, options: .transitionCrossDissolve, animations: {
             self.viewHello.isHidden = false
         }, completion: {_ in
-            UIView.transition(with: self.view, duration: 1, options: .transitionCrossDissolve, animations: {
+            UIView.transition(with: self.view, duration: 2, options: .transitionCrossDissolve, animations: {
                 self.viewHello.isHidden = true
             })
         })
+        
+
     }
 
     
