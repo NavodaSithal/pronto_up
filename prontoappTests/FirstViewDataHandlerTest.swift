@@ -92,6 +92,5 @@ class MockFirstDelegate : FirstViewDelegate{
         err_msg = errMsg
 
     }
-    
-    
+        
 }

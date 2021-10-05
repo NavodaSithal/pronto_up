@@ -14,7 +14,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var collView: UICollectionView!
     @IBOutlet weak var btnNew: UIButton!
     
-    private lazy var notesList : [NoteItem] = []
+//    private lazy var notesList : [NoteItem] = []
     
     private var mainViewmodel : MainViewModel!
     
@@ -86,8 +86,8 @@ extension MainViewController : UICollectionViewDelegate , UICollectionViewDataSo
         let cell = collView.dequeueReusableCell(withReuseIdentifier: "noteCell", for: indexPath) as! NoteCell
         cell.bgView.layer.cornerRadius = 10
         cell.bgView.layer.borderWidth = 1
-        cell.bgView.layer.borderColor = UIColor.lightGray.cgColor
-                
+        cell.bgView.layer.borderColor = UIColor(named: "light_gray")?.cgColor
+//
         cell.lblNote.text = mainViewmodel.notesList![indexPath.row].note
         cell.lblDate.text = mainViewmodel.notesList![indexPath.row].createdDate?.convertDateToString
         return cell
