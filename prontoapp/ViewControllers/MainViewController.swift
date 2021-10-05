@@ -68,7 +68,7 @@ class MainViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.destination is ShowNoteViewController{
             let vc = segue.destination as! ShowNoteViewController
-//            vc.viewModel = ShowNoteViewModel(note: mainViewmodel.notesList![sender as! Int])
+            vc.viewModel = ShowNoteViewModel(note: mainViewmodel.notesList![sender as! Int])
         }
     }
     

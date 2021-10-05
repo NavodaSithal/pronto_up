@@ -9,9 +9,9 @@ import Foundation
 
 class ShowNoteViewModel: NSObject {
     
-//    var noteObj : NoteObj!
-//
-//    init(note : NoteObj ) {
-//        self.noteObj = note
-//    }
+    var noteObj : NoteItem!
+
+    init(note : NoteItem) {
+        self.noteObj = note
+    }
 }

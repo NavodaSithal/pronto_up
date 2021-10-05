@@ -18,8 +18,8 @@ class ShowNoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         btnBack.layer.cornerRadius = 22
-//        lblDate.text = viewModel.noteObj.createdDate.convertDateToString
-//        lblNote.text = viewModel.noteObj.note
+        lblDate.text = viewModel.noteObj.createdDate?.convertDateToString
+        lblNote.text = viewModel.noteObj.note
     }
     
     @IBAction func onTapBack(_ sender: Any) {

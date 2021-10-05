@@ -28,7 +28,7 @@
         <!--Pronto-->
         <scene sceneID="IyX-PA-Hq1">
             <objects>
-                <viewController id="khb-3Q-0iS" customClass="FirstViewController" customModule="pronto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="khb-3Q-0iS" customClass="FirstViewController" customModule="prontoapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BJr-IW-WRo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,7 +103,7 @@
         <!--Scan View Controller-->
         <scene sceneID="FwQ-hn-ANM">
             <objects>
-                <viewController id="AWx-M5-6uE" customClass="ScanViewController" customModule="pronto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AWx-M5-6uE" customClass="ScanViewController" customModule="prontoapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wmE-WN-yzX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +119,7 @@
         <!--Pronto-->
         <scene sceneID="EiC-t0-cb3">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="ntE-La-y38" customClass="MainViewController" customModule="pronto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="ntE-La-y38" customClass="MainViewController" customModule="prontoapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VZu-KY-hzi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,14 +161,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="noteCell" id="9um-hw-9am" customClass="NoteCell" customModule="pronto" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="noteCell" id="9um-hw-9am" customClass="NoteCell" customModule="prontoapp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="189" height="168"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vtr-4E-XjF">
                                             <rect key="frame" x="0.0" y="0.0" width="189" height="168"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nue-Le-tAa" customClass="ShadowView" customModule="pronto" customModuleProvider="target">
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nue-Le-tAa" customClass="ShadowView" customModule="prontoapp" customModuleProvider="target">
                                                     <rect key="frame" x="10" y="10" width="169" height="148"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Mii-CU-f43">
@@ -295,7 +295,7 @@
         <!--Show Note View Controller-->
         <scene sceneID="u9K-ws-F9H">
             <objects>
-                <viewController id="U79-of-6gY" customClass="ShowNoteViewController" customModule="pronto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="U79-of-6gY" customClass="ShowNoteViewController" customModule="prontoapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oJb-Ob-rtC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -357,7 +357,7 @@
         <!--Pronto-->
         <scene sceneID="cgq-4C-QdL">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="cI8-rd-GKf" customClass="NewNoteViewController" customModule="pronto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="cI8-rd-GKf" customClass="NewNoteViewController" customModule="prontoapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pda-es-ZOS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -365,7 +365,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HG3-Y8-TOb">
                                 <rect key="frame" x="20" y="117" width="374" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="K6G-yr-aeD"/>
                                 </constraints>

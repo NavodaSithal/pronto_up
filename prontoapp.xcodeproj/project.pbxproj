@@ -30,7 +30,19 @@
 		35021CF3270C09F5000A81C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CEF270C09F5000A81C0 /* MainViewController.swift */; };
 		35021CF6270C0C63000A81C0 /* NoteItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CF4270C0C63000A81C0 /* NoteItem+CoreDataClass.swift */; };
 		35021CF7270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35021CF5270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift */; };
+		3592C8DA270C1CED0061674E /* prontoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592C8D9270C1CED0061674E /* prontoappTests.swift */; };
+		3592C8E2270C1D1B0061674E /* FirstViewDataHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592C8E1270C1D1B0061674E /* FirstViewDataHandlerTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3592C8DC270C1CED0061674E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35021CB1270C07C4000A81C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35021CB8270C07C4000A81C0;
+			remoteInfo = prontoapp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		35021CB9270C07C4000A81C0 /* prontoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prontoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,10 +70,21 @@
 		35021CEF270C09F5000A81C0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		35021CF4270C0C63000A81C0 /* NoteItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		35021CF5270C0C63000A81C0 /* NoteItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3592C8D7270C1CED0061674E /* prontoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prontoappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592C8D9270C1CED0061674E /* prontoappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prontoappTests.swift; sourceTree = "<group>"; };
+		3592C8DB270C1CED0061674E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3592C8E1270C1D1B0061674E /* FirstViewDataHandlerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewDataHandlerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35021CB6270C07C4000A81C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592C8D4270C1CED0061674E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				35021CBB270C07C4000A81C0 /* prontoapp */,
+				3592C8D8270C1CED0061674E /* prontoappTests */,
 				35021CBA270C07C4000A81C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				35021CB9270C07C4000A81C0 /* prontoapp.app */,
+				3592C8D7270C1CED0061674E /* prontoappTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +183,16 @@
 			path = Handler;
 			sourceTree = "<group>";
 		};
+		3592C8D8270C1CED0061674E /* prontoappTests */ = {
+			isa = PBXGroup;
+			children = (
+				3592C8D9270C1CED0061674E /* prontoappTests.swift */,
+				3592C8DB270C1CED0061674E /* Info.plist */,
+				3592C8E1270C1D1B0061674E /* FirstViewDataHandlerTest.swift */,
+			);
+			path = prontoappTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,6 +213,24 @@
 			productReference = 35021CB9270C07C4000A81C0 /* prontoapp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3592C8D6270C1CED0061674E /* prontoappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592C8E0270C1CED0061674E /* Build configuration list for PBXNativeTarget "prontoappTests" */;
+			buildPhases = (
+				3592C8D3270C1CED0061674E /* Sources */,
+				3592C8D4270C1CED0061674E /* Frameworks */,
+				3592C8D5270C1CED0061674E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3592C8DD270C1CED0061674E /* PBXTargetDependency */,
+			);
+			name = prontoappTests;
+			productName = prontoappTests;
+			productReference = 3592C8D7270C1CED0061674E /* prontoappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +242,10 @@
 				TargetAttributes = {
 					35021CB8270C07C4000A81C0 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					3592C8D6270C1CED0061674E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 35021CB8270C07C4000A81C0;
 					};
 				};
 			};
@@ -206,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				35021CB8270C07C4000A81C0 /* prontoapp */,
+				3592C8D6270C1CED0061674E /* prontoappTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +276,13 @@
 				35021CCC270C07C6000A81C0 /* LaunchScreen.storyboard in Resources */,
 				35021CC9270C07C6000A81C0 /* Assets.xcassets in Resources */,
 				35021CC4270C07C4000A81C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592C8D5270C1CED0061674E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +316,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3592C8D3270C1CED0061674E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592C8E2270C1D1B0061674E /* FirstViewDataHandlerTest.swift in Sources */,
+				3592C8DA270C1CED0061674E /* prontoappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3592C8DD270C1CED0061674E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35021CB8270C07C4000A81C0 /* prontoapp */;
+			targetProxy = 3592C8DC270C1CED0061674E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		35021CC2270C07C4000A81C0 /* Main.storyboard */ = {
@@ -429,6 +511,48 @@
 			};
 			name = Release;
 		};
+		3592C8DE270C1CED0061674E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HFJ49CT7W;
+				INFOPLIST_FILE = prontoappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navoda.mobile.prontoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prontoapp.app/prontoapp";
+			};
+			name = Debug;
+		};
+		3592C8DF270C1CED0061674E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HFJ49CT7W;
+				INFOPLIST_FILE = prontoappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navoda.mobile.prontoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prontoapp.app/prontoapp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +570,15 @@
 			buildConfigurations = (
 				35021CD1270C07C6000A81C0 /* Debug */,
 				35021CD2270C07C6000A81C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592C8E0270C1CED0061674E /* Build configuration list for PBXNativeTarget "prontoappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592C8DE270C1CED0061674E /* Debug */,
+				3592C8DF270C1CED0061674E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

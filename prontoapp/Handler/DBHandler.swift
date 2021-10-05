@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-//import RealmSwift
 
 class DBHandler : NSObject{
     
@@ -34,19 +33,7 @@ class DBHandler : NSObject{
             
         }
     }
-    
-//    let realm = try! Realm()
-//
-//    func saveNote(note : NoteObj) {
-//        realm.beginWrite()
-//        realm.add(note)
-//        try! realm.commitWrite()
-//    }
-//
-//    func getAllNotes() -> [NoteObj]{
-//        let notes = realm.objects(NoteObj.self)
-//        return Array(notes)
-//    }
+
 }
 
 
